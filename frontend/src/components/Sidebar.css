@@ -1,0 +1,44 @@
+.member-status-img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.member-status {
+    margin-bottom: 0;
+    position: relative;
+}
+
+.sidebar-online-status {
+    height: 11px;
+    width: 11px;
+    background-color: green;
+    margin-left: 20px;
+}
+
+.sidebar-offline-status {
+    height: 11px;
+    width: 11px;
+    background-color: red;
+    margin-left: 20px;
+}
+
+.sidebar-offline-status,
+.sidebar-online-status {
+    font-size: 11px;
+    position: absolute;
+    z-index: 99;
+    bottom: 0;
+    left: 12px;
+}
+
+.box {
+    border: 1px solid lightgrey;
+    height: 40px;
+}
+
+.notification {
+    height: 15px;
+    width: 15px;
+}
